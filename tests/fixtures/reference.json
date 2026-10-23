@@ -1,0 +1,544 @@
+{
+  "phone_stand_buyer_pays": {
+    "input": {
+      "itemsOnPlate": 4,
+      "slicerBasis": "plate",
+      "printMinutes": 340,
+      "filaments": [
+        {
+          "grams": 168,
+          "pricePerKg": 19.99
+        },
+        {
+          "grams": 24,
+          "pricePerKg": 19.99
+        }
+      ],
+      "purgeGrams": 18,
+      "printer": {
+        "watts": 120,
+        "pricePaid": 499,
+        "lifeHours": 5000,
+        "upkeepPerHour": 0.03
+      },
+      "kwhRate": 0.16,
+      "laborRate": 20,
+      "setupMinPerPlate": 6,
+      "finishMinPerItem": 3,
+      "packagingPerItem": 0.45,
+      "hardwarePerItem": 0,
+      "failurePct": 10,
+      "profitMode": "markup",
+      "profitValue": 100,
+      "roundTo99": true,
+      "channel": {
+        "feePct": 10,
+        "feeMin": 0.8,
+        "feeFlat": 0,
+        "shipped": true
+      },
+      "shippingMode": "buyer",
+      "shippingCost": 5.5
+    },
+    "expected": {
+      "material": 1.049475,
+      "electricity": 0.027200000000000002,
+      "wear": 0.18388333333333334,
+      "failure": 0.1260558333333333,
+      "labor": 1.5,
+      "cost": 3.3366141666666667,
+      "printHoursPerItem": 1.4166666666666667,
+      "exactPrice": 8.025809259259258,
+      "price": 8.99,
+      "fee": 1.449,
+      "profit": 4.204385833333333,
+      "margin": 46.76736188357434,
+      "buyerTotal": 14.49
+    }
+  },
+  "phone_stand_built_in": {
+    "input": {
+      "itemsOnPlate": 4,
+      "slicerBasis": "plate",
+      "printMinutes": 340,
+      "filaments": [
+        {
+          "grams": 168,
+          "pricePerKg": 19.99
+        },
+        {
+          "grams": 24,
+          "pricePerKg": 19.99
+        }
+      ],
+      "purgeGrams": 18,
+      "printer": {
+        "watts": 120,
+        "pricePaid": 499,
+        "lifeHours": 5000,
+        "upkeepPerHour": 0.03
+      },
+      "kwhRate": 0.16,
+      "laborRate": 20,
+      "setupMinPerPlate": 6,
+      "finishMinPerItem": 3,
+      "packagingPerItem": 0.45,
+      "hardwarePerItem": 0,
+      "failurePct": 10,
+      "profitMode": "markup",
+      "profitValue": 100,
+      "roundTo99": true,
+      "channel": {
+        "feePct": 10,
+        "feeMin": 0.8,
+        "feeFlat": 0,
+        "shipped": true
+      },
+      "shippingMode": "built_in",
+      "shippingCost": 5.5
+    },
+    "expected": {
+      "material": 1.049475,
+      "electricity": 0.027200000000000002,
+      "wear": 0.18388333333333334,
+      "failure": 0.1260558333333333,
+      "labor": 1.5,
+      "cost": 3.3366141666666667,
+      "printHoursPerItem": 1.4166666666666667,
+      "exactPrice": 13.52580925925926,
+      "price": 13.99,
+      "fee": 1.399,
+      "profit": 3.7543858333333344,
+      "margin": 26.836210388372656,
+      "buyerTotal": 13.99
+    }
+  },
+  "phone_stand_local": {
+    "input": {
+      "itemsOnPlate": 4,
+      "slicerBasis": "plate",
+      "printMinutes": 340,
+      "filaments": [
+        {
+          "grams": 168,
+          "pricePerKg": 19.99
+        },
+        {
+          "grams": 24,
+          "pricePerKg": 19.99
+        }
+      ],
+      "purgeGrams": 18,
+      "printer": {
+        "watts": 120,
+        "pricePaid": 499,
+        "lifeHours": 5000,
+        "upkeepPerHour": 0.03
+      },
+      "kwhRate": 0.16,
+      "laborRate": 20,
+      "setupMinPerPlate": 6,
+      "finishMinPerItem": 3,
+      "packagingPerItem": 0.45,
+      "hardwarePerItem": 0,
+      "failurePct": 10,
+      "profitMode": "markup",
+      "profitValue": 100,
+      "roundTo99": true,
+      "channel": {
+        "feePct": 0,
+        "feeMin": 0,
+        "feeFlat": 0,
+        "shipped": false
+      },
+      "shippingMode": "buyer",
+      "shippingCost": 5.5
+    },
+    "expected": {
+      "material": 1.049475,
+      "electricity": 0.027200000000000002,
+      "wear": 0.18388333333333334,
+      "failure": 0.1260558333333333,
+      "labor": 1.5,
+      "cost": 3.3366141666666667,
+      "printHoursPerItem": 1.4166666666666667,
+      "exactPrice": 6.673228333333332,
+      "price": 6.99,
+      "fee": 0.0,
+      "profit": 3.6533858333333336,
+      "margin": 52.26589175011922,
+      "buyerTotal": 6.99
+    }
+  },
+  "phone_stand_hourly": {
+    "input": {
+      "itemsOnPlate": 4,
+      "slicerBasis": "plate",
+      "printMinutes": 340,
+      "filaments": [
+        {
+          "grams": 168,
+          "pricePerKg": 19.99
+        },
+        {
+          "grams": 24,
+          "pricePerKg": 19.99
+        }
+      ],
+      "purgeGrams": 18,
+      "printer": {
+        "watts": 120,
+        "pricePaid": 499,
+        "lifeHours": 5000,
+        "upkeepPerHour": 0.03
+      },
+      "kwhRate": 0.16,
+      "laborRate": 20,
+      "setupMinPerPlate": 6,
+      "finishMinPerItem": 3,
+      "packagingPerItem": 0.45,
+      "hardwarePerItem": 0,
+      "failurePct": 10,
+      "profitMode": "hourly",
+      "profitValue": 3,
+      "roundTo99": true,
+      "channel": {
+        "feePct": 10,
+        "feeMin": 0.8,
+        "feeFlat": 0,
+        "shipped": true
+      },
+      "shippingMode": "buyer",
+      "shippingCost": 5.5
+    },
+    "expected": {
+      "material": 1.049475,
+      "electricity": 0.027200000000000002,
+      "wear": 0.18388333333333334,
+      "failure": 0.1260558333333333,
+      "labor": 1.5,
+      "cost": 3.3366141666666667,
+      "printHoursPerItem": 1.4166666666666667,
+      "exactPrice": 9.040682407407408,
+      "price": 9.99,
+      "fee": 1.5490000000000002,
+      "profit": 5.104385833333334,
+      "margin": 51.09495328661996,
+      "buyerTotal": 15.49
+    }
+  },
+  "phone_stand_no_rounding": {
+    "input": {
+      "itemsOnPlate": 4,
+      "slicerBasis": "plate",
+      "printMinutes": 340,
+      "filaments": [
+        {
+          "grams": 168,
+          "pricePerKg": 19.99
+        },
+        {
+          "grams": 24,
+          "pricePerKg": 19.99
+        }
+      ],
+      "purgeGrams": 18,
+      "printer": {
+        "watts": 120,
+        "pricePaid": 499,
+        "lifeHours": 5000,
+        "upkeepPerHour": 0.03
+      },
+      "kwhRate": 0.16,
+      "laborRate": 20,
+      "setupMinPerPlate": 6,
+      "finishMinPerItem": 3,
+      "packagingPerItem": 0.45,
+      "hardwarePerItem": 0,
+      "failurePct": 10,
+      "profitMode": "markup",
+      "profitValue": 100,
+      "roundTo99": false,
+      "channel": {
+        "feePct": 10,
+        "feeMin": 0.8,
+        "feeFlat": 0,
+        "shipped": true
+      },
+      "shippingMode": "buyer",
+      "shippingCost": 5.5
+    },
+    "expected": {
+      "material": 1.049475,
+      "electricity": 0.027200000000000002,
+      "wear": 0.18388333333333334,
+      "failure": 0.1260558333333333,
+      "labor": 1.5,
+      "cost": 3.3366141666666667,
+      "printHoursPerItem": 1.4166666666666667,
+      "exactPrice": 8.025809259259258,
+      "price": 8.03,
+      "fee": 1.353,
+      "profit": 3.340385833333333,
+      "margin": 41.59882731423827,
+      "buyerTotal": 13.53
+    }
+  },
+  "cable_clips_local": {
+    "input": {
+      "itemsOnPlate": 24,
+      "slicerBasis": "plate",
+      "printMinutes": 170,
+      "filaments": [
+        {
+          "grams": 96,
+          "pricePerKg": 19.99
+        }
+      ],
+      "purgeGrams": 0,
+      "printer": {
+        "watts": 120,
+        "pricePaid": 499,
+        "lifeHours": 5000,
+        "upkeepPerHour": 0.03
+      },
+      "kwhRate": 0.16,
+      "laborRate": 20,
+      "setupMinPerPlate": 6,
+      "finishMinPerItem": 0.5,
+      "packagingPerItem": 0.1,
+      "hardwarePerItem": 0,
+      "failurePct": 5,
+      "profitMode": "markup",
+      "profitValue": 150,
+      "roundTo99": true,
+      "channel": {
+        "feePct": 0,
+        "feeMin": 0,
+        "feeFlat": 0,
+        "shipped": false
+      },
+      "shippingMode": "buyer",
+      "shippingCost": 5.5
+    },
+    "expected": {
+      "material": 0.07995999999999999,
+      "electricity": 0.0022666666666666664,
+      "wear": 0.01532361111111111,
+      "failure": 0.004877513888888888,
+      "labor": 0.25,
+      "cost": 0.4524277916666667,
+      "printHoursPerItem": 0.11805555555555555,
+      "exactPrice": 1.131069479166667,
+      "price": 1.99,
+      "fee": 0.0,
+      "profit": 1.5375722083333332,
+      "margin": 77.2649350921273,
+      "buyerTotal": 1.99
+    }
+  },
+  "cable_clip_fee_minimum": {
+    "input": {
+      "itemsOnPlate": 24,
+      "slicerBasis": "plate",
+      "printMinutes": 170,
+      "filaments": [
+        {
+          "grams": 96,
+          "pricePerKg": 19.99
+        }
+      ],
+      "purgeGrams": 0,
+      "printer": {
+        "watts": 120,
+        "pricePaid": 499,
+        "lifeHours": 5000,
+        "upkeepPerHour": 0.03
+      },
+      "kwhRate": 0.16,
+      "laborRate": 20,
+      "setupMinPerPlate": 6,
+      "finishMinPerItem": 0.5,
+      "packagingPerItem": 0.1,
+      "hardwarePerItem": 0,
+      "failurePct": 5,
+      "profitMode": "markup",
+      "profitValue": 150,
+      "roundTo99": true,
+      "channel": {
+        "feePct": 10,
+        "feeMin": 0.8,
+        "feeFlat": 0,
+        "shipped": true
+      },
+      "shippingMode": "buyer",
+      "shippingCost": 0
+    },
+    "expected": {
+      "material": 0.07995999999999999,
+      "electricity": 0.0022666666666666664,
+      "wear": 0.01532361111111111,
+      "failure": 0.004877513888888888,
+      "labor": 0.25,
+      "cost": 0.4524277916666667,
+      "printHoursPerItem": 0.11805555555555555,
+      "exactPrice": 1.931069479166667,
+      "price": 1.99,
+      "fee": 0.8,
+      "profit": 0.7375722083333333,
+      "margin": 37.06393006700167,
+      "buyerTotal": 1.99
+    }
+  },
+  "planter_margin_built_in": {
+    "input": {
+      "itemsOnPlate": 1,
+      "slicerBasis": "plate",
+      "printMinutes": 550,
+      "filaments": [
+        {
+          "grams": 310,
+          "pricePerKg": 24.99
+        }
+      ],
+      "purgeGrams": 0,
+      "printer": {
+        "watts": 120,
+        "pricePaid": 499,
+        "lifeHours": 5000,
+        "upkeepPerHour": 0.03
+      },
+      "kwhRate": 0.16,
+      "laborRate": 20,
+      "setupMinPerPlate": 6,
+      "finishMinPerItem": 8,
+      "packagingPerItem": 0.9,
+      "hardwarePerItem": 0,
+      "failurePct": 10,
+      "profitMode": "margin",
+      "profitValue": 50,
+      "roundTo99": true,
+      "channel": {
+        "feePct": 10,
+        "feeMin": 0.8,
+        "feeFlat": 0,
+        "shipped": true
+      },
+      "shippingMode": "built_in",
+      "shippingCost": 8.2
+    },
+    "expected": {
+      "material": 7.746899999999999,
+      "electricity": 0.176,
+      "wear": 1.1898333333333333,
+      "failure": 0.9112733333333333,
+      "labor": 4.666666666666667,
+      "cost": 15.590673333333333,
+      "printHoursPerItem": 9.166666666666666,
+      "exactPrice": 59.47668333333333,
+      "price": 59.99,
+      "fee": 5.9990000000000006,
+      "profit": 30.200326666666662,
+      "margin": 50.34226815580374,
+      "buyerTotal": 59.99
+    }
+  },
+  "keychain_fixed_local": {
+    "input": {
+      "itemsOnPlate": 12,
+      "slicerBasis": "plate",
+      "printMinutes": 115,
+      "filaments": [
+        {
+          "grams": 60,
+          "pricePerKg": 19.99
+        }
+      ],
+      "purgeGrams": 0,
+      "printer": {
+        "watts": 120,
+        "pricePaid": 499,
+        "lifeHours": 5000,
+        "upkeepPerHour": 0.03
+      },
+      "kwhRate": 0.16,
+      "laborRate": 20,
+      "setupMinPerPlate": 6,
+      "finishMinPerItem": 1,
+      "packagingPerItem": 0.15,
+      "hardwarePerItem": 0,
+      "failurePct": 5,
+      "profitMode": "fixed",
+      "profitValue": 2,
+      "roundTo99": true,
+      "channel": {
+        "feePct": 0,
+        "feeMin": 0,
+        "feeFlat": 0,
+        "shipped": false
+      },
+      "shippingMode": "buyer",
+      "shippingCost": 5.5
+    },
+    "expected": {
+      "material": 0.09994999999999998,
+      "electricity": 0.0030666666666666663,
+      "wear": 0.02073194444444444,
+      "failure": 0.0061874305555555545,
+      "labor": 0.5,
+      "cost": 0.7799360416666666,
+      "printHoursPerItem": 0.1597222222222222,
+      "exactPrice": 2.7799360416666667,
+      "price": 2.99,
+      "fee": 0.0,
+      "profit": 2.2100639583333335,
+      "margin": 73.91518255295429,
+      "buyerTotal": 2.99
+    }
+  },
+  "margin_too_high": {
+    "input": {
+      "itemsOnPlate": 4,
+      "slicerBasis": "plate",
+      "printMinutes": 340,
+      "filaments": [
+        {
+          "grams": 168,
+          "pricePerKg": 19.99
+        },
+        {
+          "grams": 24,
+          "pricePerKg": 19.99
+        }
+      ],
+      "purgeGrams": 18,
+      "printer": {
+        "watts": 120,
+        "pricePaid": 499,
+        "lifeHours": 5000,
+        "upkeepPerHour": 0.03
+      },
+      "kwhRate": 0.16,
+      "laborRate": 20,
+      "setupMinPerPlate": 6,
+      "finishMinPerItem": 3,
+      "packagingPerItem": 0.45,
+      "hardwarePerItem": 0,
+      "failurePct": 10,
+      "profitMode": "margin",
+      "profitValue": 95,
+      "roundTo99": true,
+      "channel": {
+        "feePct": 10,
+        "feeMin": 0.8,
+        "feeFlat": 0,
+        "shipped": true
+      },
+      "shippingMode": "buyer",
+      "shippingCost": 5.5
+    },
+    "expected": {
+      "error": "margin_too_high"
+    }
+  }
+}

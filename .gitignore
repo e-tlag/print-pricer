@@ -1,0 +1,8 @@
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+# personal backups made from the app
+print-pricer-backup-*.json
+quotes-*.csv

@@ -1,0 +1,11 @@
+{
+  "name": "print-pricer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal 3D print pricing app (installable web app)",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "serve": "python -m http.server 8080"
+  }
+}
